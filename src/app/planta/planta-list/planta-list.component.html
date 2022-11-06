@@ -1,3 +1,25 @@
-<p>
-  planta-list works!
-</p>
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-brand mb-4">Vivero El Otoño</span>
+</nav>
+
+<div class="container-fluid">
+  <div class="row mb-4 mt-4">
+    <div class="col m0 p0">
+      <img class="w-100 m-0 p-0" src="../../../assets/images/image 1.png" alt="location"/>
+    </div>
+  </div>
+  <div class="row header mb-2">
+    <div class="col-1 bg-dark">#</div>
+    <div class="col-2 bg-dark">Nombre Común</div>
+    <div class="col-1 bg-dark">Tipo</div>
+    <div class="col-2 bg-dark">Clima</div>
+  </div>
+  <div class="row mb-2" *ngFor="let planta of plantas">
+    <div class="col-1 planta idPlanta">{{planta.id}}</div>
+    <div class="col-2 planta">{{planta.nombre_comun}}</div>
+    <div class="col-1 planta">{{planta.tipo}}</div>
+    <div class="col-2 planta">{{planta.clima}}</div>
+ </div>
+</div>
+
+<footer><p>Contact us: +57 3102105253 - info@viveroelotonio.com - @viveroelotonio</p></footer>

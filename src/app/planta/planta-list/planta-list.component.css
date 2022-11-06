@@ -1,0 +1,42 @@
+.navbar {
+  font-family: 'Times New Roman', Times, serif !important;
+  font-weight: bold !important;
+  border-bottom: 1px solid black;
+  line-height: 22px;
+}
+
+.navbar-brand {
+  font-size: 50px;
+  margin-left: 15px;
+  padding: 0;
+}
+
+.header {
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  vertical-align: text-bottom;
+}
+
+.planta {
+  border-bottom: 1px solid black;
+  height: 40px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.idPlanta {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.table {}
+
+footer {
+  margin-top: 50px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
